@@ -1,0 +1,1 @@
+[Curriculum vitae](https://xopek-pro.github.io/rsschool-cv/cv)
