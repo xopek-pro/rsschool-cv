@@ -5,6 +5,10 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 */
 pre code {
   display: block; padding: 0.5em;
+  box-shadow: 0 0 5px 5px #c7c7c7 inset;
+  background-color: #222222;
+  color: white;
+  width: 80%;
 }
 
 pre .comment,
@@ -28,7 +32,8 @@ pre .status,
 pre .nginx .title,
 pre .xml .tag,
 pre .xml .tag .value {
-  color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 pre .string,
@@ -36,7 +41,7 @@ pre .title,
 pre .parent,
 pre .tag .value,
 pre .rules .value,
-pre .rules .value .number,
+pre .rules .value ,
 pre .ruby .symbol,
 pre .ruby .symbol .string,
 pre .aggregate,
@@ -68,7 +73,9 @@ pre .userType,
 pre .apache .sqbracket,
 pre .nginx .built_in,
 pre .tex .special,
-pre .prompt {
+pre .prompt,
+pre .params,
+pre .number {
   color: rgb(43, 145, 175);
 }
 
